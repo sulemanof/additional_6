@@ -9,7 +9,7 @@ module.exports = function zeros(expression) {
 
     for (var j = last; j >= last - 1; j--) {
 
-      if(arr[i].charAt(j) === '!') {
+      if (arr[i].charAt(j) === '!') {
         res++;
       }
     }
@@ -42,6 +42,6 @@ module.exports = function zeros(expression) {
     }
   }
   if (!(counter1 + counter3)) return 0;
-  
+
   return counter1 + counter2 + counter3;
 }
